@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    }
+    
+    .Main{
+        font-style: oblique;
+        background-color: #c9edd1;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        margin: 2%;
+    } 
+    .MainCaption{
+        text-align: right;
+    }
+    .Caption{
+        float: right;
+        text-align: center;
+    }
+    .Caption p{
+        font-size: 12pt;
+        background-color: #7ffc11;
+        margin: 2px;
+        border: 1px solid black;
+    }
+    #cap2{
+    background-color: rgb(255, 70, 193);
+    }
+    #cap3{
+        background-color: rgb(220, 238, 151);
+        }
+    
+    
+    .row {
+    display:flex;
+    }
+    
+    @media (min-width: 768px) and (max-width: 992px) {
+    .row {
+      
+        flex-wrap:wrap;
+        
+    }
+    .Main:nth-of-type(1){
+        flex:1;
+    }
+    .Main:nth-of-type(2){
+        flex:1;
+    }
+    #cap2{
+        background-color: rgb(175, 70, 255);
+        }
+        #cap3{
+            background-color: rgb(238, 198, 151);
+            }
+        
+    }
+    
+    @media (max-width: 768px){
+    .row {
+        display: block;
+        }
+        #cap2{
+            background-color: rgb(255, 70, 218);
+            }
+            #cap3{
+                background-color: rgb(238, 198, 151);
+                }
+            
+    }
